@@ -13,7 +13,7 @@
 <div> 
  
 
-[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=dlaxodud1217)](https://solved.ac/profile/nahyunho1030)
-<img src="http://mazandi.herokuapp.com/api?handle=dlaxodud1217&theme=cold"/>
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=nahyunho1030)](https://solved.ac/profile/nahyunho1030)
+<img src="http://mazandi.herokuapp.com/api?handle=nahyunho1030&theme=cold"/>
 \
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=imhyunho99&layout=compact&title_color=white)
