@@ -45,7 +45,7 @@
 - **설명**: 사용자가 업로드한 이미지를 윤곽선 추출 알고리즘으로 분석하여 네모로직 퍼즐을 자동 생성하는 서비스 
 - **주요 기술**: `Django Rest Framework`, `React.js`, `Nginx` 
 - **Demo**: [http://nonogram.duckdns.org/](http://nonogram.duckdns.org/) 
-- 
+
 <div align=center>
 </div>
 
