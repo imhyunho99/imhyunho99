@@ -39,17 +39,20 @@
 ### 차량 엠블럼 분류기 (개인 프로젝트)
 - **설명**: PyTorch 딥러닝 모델과 OpenCV를 활용하여 차량 엠블럼 이미지를 분류하고, 자동 강화 학습 기능을 구현한 서비스 
 - **주요 기술**: `Python`, `PyTorch`, `OpenCV`, `Nginx` 
-- **Demo**: [https://carproject.duckdns.org/](https://carproject.duckdns.org/) 
+- **Demo**: [https://carproject.duckdns.org/](https://carproject.duckdns.org/)
+- **repo**: [https://github.com/imhyunho99/CarLogoDetection]
 
 ### 네모로직 퍼즐 생성기 (개인 프로젝트)
 - **설명**: 사용자가 업로드한 이미지를 윤곽선 추출 알고리즘으로 분석하여 네모로직 퍼즐을 자동 생성하는 서비스 
 - **주요 기술**: `Django Rest Framework`, `React.js`, `Nginx` 
-- **Demo**: [https://nonogram.duckdns.org/](http://nonogram.duckdns.org/) 
+- **Demo**: [https://nonogram.duckdns.org/](http://nonogram.duckdns.org/)
+- **repo**: [https://github.com/imhyunho99/nonogram]
 
 ### QR 코드 메뉴 (Bid-Menu)
 - **설명**: QR 코드를 스캔하여 메뉴를 확인하는 서비스 (관리자 페이지 포함)
 - **주요 기술**: `Django`, `Python`, `Nginx`, `Webhook`
 - **Demo**: [https://bid-menu.duckdns.org/](http://bid-menu.duckdns.org/)
 - **Location**: https://naver.me/5ISHAhLZ
+- **repo**: [https://github.com/imhyunho99/bidbar_menu]
 <div align=center>
 </div>
