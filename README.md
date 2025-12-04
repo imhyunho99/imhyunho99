@@ -46,8 +46,6 @@
 - **주요 기술**: `Django Rest Framework`, `React.js`, `Nginx` 
 - **Demo**: [https://nonogram.duckdns.org/](http://nonogram.duckdns.org/) 
 
-<div align=center>
-</div>
 
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=imhyunho99&layout=compact&title_color=white)
