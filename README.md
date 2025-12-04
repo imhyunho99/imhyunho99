@@ -46,6 +46,10 @@
 - **주요 기술**: `Django Rest Framework`, `React.js`, `Nginx` 
 - **Demo**: [https://nonogram.duckdns.org/](http://nonogram.duckdns.org/) 
 
-
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=imhyunho99&layout=compact&title_color=white)
+### QR 코드 메뉴 (Bid-Menu)
+- **설명**: QR 코드를 스캔하여 메뉴를 확인하는 서비스 (관리자 페이지 포함)
+- **주요 기술**: `Django`, `Python`, `Nginx`, `Webhook`
+- **Demo**: [http://bid-menu.duckdns.org/](http://bid-menu.duckdns.org/)
+- **Location**: https://naver.me/5ISHAhLZ
+<div align=center>
+</div>
