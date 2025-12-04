@@ -49,7 +49,7 @@
 ### QR 코드 메뉴 (Bid-Menu)
 - **설명**: QR 코드를 스캔하여 메뉴를 확인하는 서비스 (관리자 페이지 포함)
 - **주요 기술**: `Django`, `Python`, `Nginx`, `Webhook`
-- **Demo**: [http://bid-menu.duckdns.org/](http://bid-menu.duckdns.org/)
+- **Demo**: [https://bid-menu.duckdns.org/](http://bid-menu.duckdns.org/)
 - **Location**: https://naver.me/5ISHAhLZ
 <div align=center>
 </div>
