@@ -36,6 +36,13 @@
 
 ## Projects
 
+
+### 매직 컨테이너
+- **설명**: 각종 LLM, Vision, TTS 등의 모델의 UI와 환경 설정을 자동으로 진행해주는 로컬라이제이션 컨테이너
+- **주요 기술**: `Rust/Tauri`, `llama-cpp`,
+- **repo**: https://github.com/imhyunho99/magic-container
+
+
 ### 차량 엠블럼 분류기 (개인 프로젝트)
 - **설명**: PyTorch 딥러닝 모델과 OpenCV를 활용하여 차량 엠블럼 이미지를 분류하고, 자동 강화 학습 기능을 구현한 서비스 
 - **주요 기술**: `Python`, `PyTorch`, `OpenCV`, `Nginx` 
@@ -50,8 +57,8 @@
 ### QR 코드 메뉴 (Bid-Menu)
 - **설명**: QR 코드를 스캔하여 메뉴를 확인하는 서비스 (관리자 페이지 포함)
 - **주요 기술**: `Django`, `Python`, `Nginx`, `Webhook`
-- **Demo**: [https://bid-menu.duckdns.org/](http://bid-menu.duckdns.org/)
+- **사용중*** https://bar-menu.ddnsfree.com
 - **Location**: https://naver.me/5ISHAhLZ
-- **repo**: https://github.com/imhyunho99/bidbar_menu
+- **repo**: https://github.com/imhyunho99/bar-menu
 <div align=center>
 </div>
