@@ -40,7 +40,7 @@
 ### 매직 컨테이너
 - **설명**: 각종 LLM, Vision, TTS 등의 모델의 UI와 환경 설정을 자동으로 진행해주는 로컬라이제이션 컨테이너
 - **주요 기술**: `Rust/Tauri`, `llama-cpp`,
-- **repo**: https://github.com/imhyunho99/magic-container
+- **repo**: https://github.com/imhyunho99/magic_container
 
 
 ### 차량 엠블럼 분류기 (개인 프로젝트)
