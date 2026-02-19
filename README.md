@@ -42,6 +42,11 @@
 - **주요 기술**: `Rust/Tauri`, `llama-cpp`,
 - **repo**: https://github.com/imhyunho99/magic_container
 
+### Alpha
+- **설명**: Alpha는 AI 기반 투자 추천 시스템으로, 앙상블 머신러닝 모델을 활용하여 주식 및 암호화폐의 투자 가치를 분석합니다. NASDAQ 100과 Top 100 암호화폐를 대상으로 기술적 지표를 분석하고, 단기/중기/장기 투자 추천을 제공합니다.
+- **주요 기술**: `Python/FastAPI`, `scikit-learn/XGBoost/LightGBM`, `PySide6`, `QuestDB`
+- **repo**: https://github.com/imhyunho99/alpha
+
 
 ### 차량 엠블럼 분류기 (개인 프로젝트)
 - **설명**: PyTorch 딥러닝 모델과 OpenCV를 활용하여 차량 엠블럼 이미지를 분류하고, 자동 강화 학습 기능을 구현한 서비스 
