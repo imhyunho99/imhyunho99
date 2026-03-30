@@ -5,7 +5,7 @@
 단순한 기능의 구현을 넘어, 서비스 전체의 흐름을 이해하고 최적의 시스템을 설계하는 것을 목표로 합니다.
 
 -  **Contact**: nahyunho1999@gmail.com
--  **Blog**: https://im-hyunh099.tistory.com/
+-  **Blog**: https://im-hyunho99.tistory.com/
 
 <br>
 
