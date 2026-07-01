@@ -1,11 +1,20 @@
-# 안녕하세요, 실용적인 가치와 견고한 시스템을 만드는 개발자 나현호입니다.
+# 🚀 안녕하세요, 실용적인 가치와 견고한 시스템을 만드는 개발자 나현호입니다.
 
 인공지능(AI) 모델 서빙 및 대규모 트래픽을 지탱하는 웹 백엔드 아키텍처 설계에 강점을 둔 **현업 백엔드 엔지니어**입니다.  
 단순한 기능 구현을 넘어 비즈니스 흐름을 분석하고, 서비스 환경에 최적화된 인프라 및 CI/CD 파이프라인을 구축하여 지속 가능한 프로덕션을 지향합니다.
 
+<p align="left">
+  <a href="https://github.com/imhyunho99">
+    <img height="165em" src="https://github-readme-stats.vercel.app/api?username=imhyunho99&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Hyunho's GitHub Stats" />
+  </a>
+  <a href="https://github.com/imhyunho99">
+    <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imhyunho99&layout=compact&theme=tokyonight" alt="Hyunho's Top Languages" />
+  </a>
+</p>
+
 ---
 
-## Skills & Expertise
+## 🛠️ Skills & Expertise
 
 ### Languages & Frameworks
 <p>
@@ -45,52 +54,48 @@
 
 ---
 
-## Featured Production & Engineering Projects
+## 🚀 Production & Engineering Projects
 
-### [bar-menu] QR 주문 & 스마트 메뉴판 (운영 서비스)
-> **테이블 QR 코드를 활용한 무앱(Appless) 주문 결제 및 관리 서비스**
-- **소개**: 비대면 스마트 오더 솔루션으로, 실제 프랜차이즈 매장([Bidbar](https://naver.me/5ISHAhLZ))에서 프로덕션 운영 중인 서비스입니다.
-- **핵심 아키텍처**: Next.js 16 + Django REST Framework의 완전 결합 분리 구조. OCI + Vercel 분산 서버 환경 구성.
-- **주요 해결 과제**:
-  - Nginx 리버스 프록시를 통해 Vercel(Edge SSR)과 uWSGI(Django API)를 하나의 단일 도메인(`bar-menu.ddnsfree.com`)으로 결합하여 CORS 문제를 원천 해결하고 SEO 및 유저 편의성을 극대화.
-  - Payhere POS API 연동 및 결제 시뮬레이터 통합 개발.
-  - 매장 WiFi 환경 검증 시스템 구축 (Vercel Edge의 IP 파싱 및 SSID QR 매칭을 통한 주문 권한 제어).
-  - 실시간 주문 관제 대시보드 (WebSocket / Polling 및 Web Audio API를 사용한 주문 접수 알림음 발생).
+### 🥂 [bar-menu](https://github.com/imhyunho99/bar-menu) — 스마트 QR 메뉴판 & 비대면 오더 솔루션 (운영 서비스)
+> **테이블 QR 코드를 활용하여 앱 설치 없이 주문/결제 및 매장을 관리하는 스마트 솔루션**
+- **실무 프로덕션 서비스**: 실제 이자카야 및 다이닝 펍 매장([Bidbar](https://naver.me/5ISHAhLZ))에서 100% 프로덕션 서비스로 실운영 중인 솔루션입니다.
+- **핵심 아키텍처**: Next.js 16 + Django REST Framework 분리형 아키텍처. Vercel(Edge SSR)과 Oracle Cloud Infrastructure(OCI) 리버스 프록시 연동.
+- **해결한 기술 과제**:
+  - **단일 도메인 통합**: Nginx 리버스 프록시 우회 설정을 구축하여 Vercel Frontend와 uWSGI Backend API를 단일 도메인(`https://bar-menu.ddnsfree.com`)으로 무중단 통합함으로써 CORS 원천 해결 및 SEO 점수 99점 확보.
+  - **Wi-Fi 권한 제어**: Vercel Edge Middleware의 IP 감지 기능과 매장 Wi-Fi 공유기 SSID 매칭 알고리즘을 설계하여 매장 와이파이 접속자만 주문할 수 있도록 완벽한 권한 통제 구현.
+  - **결제 API 통합**: 페이히어(Payhere) POS API와 연동된 결제 시뮬레이터 및 실시간 실물 POS 주문 내역 동기화 파이프라인 개발.
+  - **실시간 관제**: Django Admin 내부에 WebSocket 및 Polling 기반 실시간 주문 대시보드를 연동하고, Web Audio API chime 알림을 적용하여 매장 회전 속도 극대화.
 - **기술 스택**: `Next.js 16 (TypeScript)`, `Django REST Framework`, `PostgreSQL`, `Nginx`, `uWSGI`, `Vercel`, `Oracle Cloud`
-- **Repo**: [bar-menu](https://github.com/imhyunho99/bar-menu)
 
 ---
 
-### [magic_container] 로컬 AI 오케스트레이터
-> **로컬 AI 모델 환경 자동 구성 및 데스크톱 배포 솔루션**
-- **소개**: 한 번의 빌드로 사용자 기기 내 로컬 런타임 환경에서 다양한 AI 모델(LLM, CV, TTS 등) 구동용 UI 및 환경설정을 자동화해주는 크로스 플랫폼 컨테이너입니다.
+### 📦 [magic_container](https://github.com/imhyunho99/magic_container) — 로컬 AI 오케스트레이터
+> **로컬 AI 모델 환경 자동 구성 및 데스크톱 배포용 크로스 플랫폼 컨테이너**
+- **특징**: 복잡한 환경 설정 없이 로컬에서 다양한 AI 모델(LLM, CV, TTS 등)을 손쉽게 구동하고 UI를 서빙할 수 있도록 빌드 및 실행 프로세스를 자동화합니다.
 - **기술 스택**: `Rust`, `Tauri`, `llama-cpp`
-- **Repo**: [magic_container](https://github.com/imhyunho99/magic_container)
 
 ---
 
-### [Alpha] AI 기반 투자 어드바이저
-> **앙상블 머신러닝 모델 활용 자산 가치 분석 및 투자 추천 시스템**
-- **소개**: NASDAQ 100 지수 및 Top 100 암호화폐의 실시간 기술 지표를 추적 및 시계열 분석하여 투자 의사결정을 보조하는 시각화 도구입니다.
+### 📈 [alpha](https://github.com/imhyunho99/alpha) — AI 기반 투자 어드바이저
+> **앙상블 머신러닝 모델 기반 실시간 시계열 자산 가치 분석 및 투자 추천 시스템**
+- **특징**: NASDAQ 지수 및 주요 암호화폐 시장의 100여 개 기술 지표를 고성능 시계열 데이터베이스에 추적/기록하고, 학습된 머신러닝 파이프라인을 연동해 의사결정을 보조하는 시각화 대시보드입니다.
 - **기술 스택**: `Python/FastAPI`, `scikit-learn`, `XGBoost`, `LightGBM`, `PySide6 (Qt)`, `QuestDB`
-- **Repo**: [alpha](https://github.com/imhyunho99/alpha)
 
 ---
 
-### [CarLogoDetection] 실시간 차량 엠블럼 분류기
-> **PyTorch 딥러닝과 OpenCV 기반 차량 로고 인식 및 강화학습 파이프라인**
-- **소개**: 차량 엠블럼 이미지를 CNN 모델로 분석하여 제조사를 고속 분류하고, 미분류 이미지 발생 시 자동 피드백 학습 순환을 처리하는 인공지능 프로토타입입니다.
+### 🚗 [CarLogoDetection](https://github.com/imhyunho99/CarLogoDetection) — 실시간 차량 엠블럼 분류기
+> **PyTorch Deep Learning 기반의 차량 로고 고속 검출 및 피드백 학습 파이프라인**
+- **특징**: 도로 및 주차장 CCTV 스트림에서 차량 엠블럼 영역을 정확히 ROI로 추출하고, CNN 모델을 거쳐 브랜드를 분류 및 이상치를 감지하여 피드백 순환 학습을 수행하는 데모 시스템입니다.
 - **기술 스택**: `Python`, `PyTorch`, `OpenCV`, `Nginx`
-- **Repo**: [CarLogoDetection](https://github.com/imhyunho99/CarLogoDetection)
 
 ---
 
-## Contact & Channels
+## 📬 Contact & Links
 
 - **Email**: nahyunho1999@gmail.com
-- **Tistory Blog**: [https://im-hyunho99.tistory.com/](https://im-hyunho99.tistory.com/) (주로 대규모 트래픽 분산 처리, DB 쿼리 최적화, 인프라 자동화 관련 포스팅 업로드 중)
+- **Blog**: [https://im-hyunho99.tistory.com/](https://im-hyunho99.tistory.com/) (대규모 트래픽 분산 처리, DB 쿼리 튜닝, 인프라 자동화 등에 특화된 기술 포스팅 운영 중)
 
 ---
 <p align="center">
-  💡 <b>"단순히 돌아가는 코드를 넘어, 비즈니스 흐름을 가장 우아하게 담아내는 설계를 지향합니다."</b>
+  💡 <b>"단순히 작동하는 코드를 넘어, 비즈니스의 가치를 가장 안정적이고 우아하게 담아내는 시스템을 만듭니다."</b>
 </p>
