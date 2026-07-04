@@ -1,11 +1,11 @@
-# 🚀 안녕하세요, 실용적인 가치와 견고한 시스템을 만드는 개발자 나현호입니다.
+# 안녕하세요, 실용적인 가치와 견고한 시스템을 만드는 개발자 나현호입니다.
 
 인공지능(AI) 모델 서빙 및 대규모 트래픽을 지탱하는 웹 백엔드 아키텍처 설계에 강점을 둔 **현업 백엔드 엔지니어**입니다.  
 단순한 기능 구현을 넘어 비즈니스 흐름을 분석하고, 서비스 환경에 최적화된 인프라 및 CI/CD 파이프라인을 구축하여 지속 가능한 프로덕션을 지향합니다.
 
 ---
 
-## 🛠️ Skills & Expertise
+## Skills & Expertise
 
 ### Languages & Frameworks
 <p>
@@ -45,9 +45,9 @@
 
 ---
 
-## 🚀 Production & Engineering Projects
+## Production & Engineering Projects
 
-### 🥂 [bar-menu](https://github.com/imhyunho99/bar-menu) — 스마트 QR 메뉴판 & 비대면 오더 솔루션 (운영 서비스)
+### [bar-menu](https://github.com/imhyunho99/bar-menu) — 스마트 QR 메뉴판 & 비대면 오더 솔루션 (운영 서비스)
 > **테이블 QR 코드를 활용하여 앱 설치 없이 주문/결제 및 매장을 관리하는 스마트 솔루션**
 - **실무 프로덕션 서비스**: 실제 이자카야 및 다이닝 펍 매장([Bidbar](https://naver.me/5ISHAhLZ))에서 100% 프로덕션 서비스로 실운영 중인 솔루션입니다.
 - **핵심 아키텍처**: Next.js 16 + Django REST Framework 분리형 아키텍처. Vercel(Edge SSR)과 Oracle Cloud Infrastructure(OCI) 리버스 프록시 연동.
@@ -60,28 +60,28 @@
 
 ---
 
-### 📦 [magic_container](https://github.com/imhyunho99/magic_container) — 로컬 AI 오케스트레이터
+### [magic_container](https://github.com/imhyunho99/magic_container) — 로컬 AI 오케스트레이터
 > **로컬 AI 모델 환경 자동 구성 및 데스크톱 배포용 크로스 플랫폼 컨테이너**
 - **특징**: 복잡한 환경 설정 없이 로컬에서 다양한 AI 모델(LLM, CV, TTS 등)을 손쉽게 구동하고 UI를 서빙할 수 있도록 빌드 및 실행 프로세스를 자동화합니다.
 - **기술 스택**: `Rust`, `Tauri`, `llama-cpp`
 
 ---
 
-### 📈 [alpha](https://github.com/imhyunho99/alpha) — AI 기반 투자 어드바이저
+### [alpha](https://github.com/imhyunho99/alpha) — AI 기반 투자 어드바이저
 > **앙상블 머신러닝 모델 기반 실시간 시계열 자산 가치 분석 및 투자 추천 시스템**
 - **특징**: NASDAQ 지수 및 주요 암호화폐 시장의 100여 개 기술 지표를 고성능 시계열 데이터베이스에 추적/기록하고, 학습된 머신러닝 파이프라인을 연동해 의사결정을 보조하는 시각화 대시보드입니다.
 - **기술 스택**: `Python/FastAPI`, `scikit-learn`, `XGBoost`, `LightGBM`, `PySide6 (Qt)`, `QuestDB`
 
 ---
 
-### 🚗 [CarLogoDetection](https://github.com/imhyunho99/CarLogoDetection) — 실시간 차량 엠블럼 분류기
+### [CarLogoDetection](https://github.com/imhyunho99/CarLogoDetection) — 실시간 차량 엠블럼 분류기
 > **PyTorch Deep Learning 기반의 차량 로고 고속 검출 및 피드백 학습 파이프라인**
 - **특징**: 도로 및 주차장 CCTV 스트림에서 차량 엠블럼 영역을 정확히 ROI로 추출하고, CNN 모델을 거쳐 브랜드를 분류 및 이상치를 감지하여 피드백 순환 학습을 수행하는 데모 시스템입니다.
 - **기술 스택**: `Python`, `PyTorch`, `OpenCV`, `Nginx`
 
 ---
 
-## 📬 Contact & Links
+## Contact & Links
 
 - **Email**: nahyunho1999@gmail.com
 - **Blog**: [https://im-hyunho99.tistory.com/](https://im-hyunho99.tistory.com/) (대규모 트래픽 분산 처리, DB 쿼리 튜닝, 인프라 자동화 등에 특화된 기술 포스팅 운영 중)
