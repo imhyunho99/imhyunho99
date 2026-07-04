@@ -3,15 +3,6 @@
 인공지능(AI) 모델 서빙 및 대규모 트래픽을 지탱하는 웹 백엔드 아키텍처 설계에 강점을 둔 **현업 백엔드 엔지니어**입니다.  
 단순한 기능 구현을 넘어 비즈니스 흐름을 분석하고, 서비스 환경에 최적화된 인프라 및 CI/CD 파이프라인을 구축하여 지속 가능한 프로덕션을 지향합니다.
 
-<p align="left">
-  <a href="https://github.com/imhyunho99">
-    <img height="165em" src="https://github-readme-stats.vercel.app/api?username=imhyunho99&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Hyunho's GitHub Stats" />
-  </a>
-  <a href="https://github.com/imhyunho99">
-    <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imhyunho99&layout=compact&theme=tokyonight" alt="Hyunho's Top Languages" />
-  </a>
-</p>
-
 ---
 
 ## 🛠️ Skills & Expertise
