@@ -1,20 +1,48 @@
-# 안녕하세요, 실용적인 가치와 견고한 시스템을 만드는 개발자 나현호입니다.
+# 안녕하세요, 견고한 시스템을 만드는 백엔드 엔지니어 나현호입니다 👋<br/>Hi, I'm Hyun-ho Na — a backend engineer who builds robust, production-ready systems.
 
-인공지능(AI) 모델 서빙 및 대규모 트래픽을 지탱하는 웹 백엔드 아키텍처 설계에 강점을 둔 **현업 백엔드 엔지니어**입니다.  
-단순한 기능 구현을 넘어 비즈니스 흐름을 분석하고, 서비스 환경에 최적화된 인프라 및 CI/CD 파이프라인을 구축하여 지속 가능한 프로덕션을 지향합니다.
+**AI 모델 서빙**과 **대규모 트래픽 웹 백엔드 아키텍처** 설계에 강점을 둔 현업 백엔드 엔지니어입니다.
+현재 [Docenty.ai](https://docenty.ai)에서 **RAG 기반 챗봇 플랫폼 서비스** 개발을 담당하며, LLM 오케스트레이션·벡터 검색·에이전트 파이프라인을 설계하고 있습니다.
+
+> Backend engineer specializing in **AI model serving** and **high-traffic web architecture**.
+> Currently building a **RAG-based chatbot platform** at Docenty.ai — designing LLM orchestration, vector retrieval, and agent pipelines.
 
 ---
 
-## Skills & Expertise
+## 🛠️ Skills & Expertise
 
 ### Languages & Frameworks
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
   <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django">
   <img src="https://img.shields.io/badge/DRF-A30000?style=flat-square&logo=django&logoColor=white" alt="Django REST Framework">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot">
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust">
-  <img src="https://img.shields.io/badge/Next.js%2016-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/React%20Native-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React Native">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
+</p>
+
+### 🤖 RAG / LLM Engineering
+<p>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain">
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white" alt="LangGraph">
+  <img src="https://img.shields.io/badge/DeepAgents-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="DeepAgents">
+  <img src="https://img.shields.io/badge/Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white" alt="Pinecone">
+  <img src="https://img.shields.io/badge/MongoDB%20Atlas%20Vector-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB Atlas Vector Search">
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI">
+  <img src="https://img.shields.io/badge/Anthropic-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Anthropic">
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face">
+</p>
+
+### AI / Machine Learning
+<p>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow">
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV">
 </p>
 
 ### Databases & Cache
@@ -22,15 +50,9 @@
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
   <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white" alt="MariaDB">
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB">
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis">
   <img src="https://img.shields.io/badge/QuestDB-F25B2A?style=flat-square&logo=questdb&logoColor=white" alt="QuestDB">
-</p>
-
-### AI / Machine Learning
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow">
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV">
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white" alt="LangChain">
 </p>
 
 ### DevOps & Cloud
@@ -41,52 +63,77 @@
   <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx">
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
   <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel">
+  <img src="https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white" alt="Tauri">
 </p>
 
 ---
 
-## Production & Engineering Projects
+## 🚀 Production & Engineering Projects
 
-### [bar-menu](https://github.com/imhyunho99/bar-menu) — 스마트 QR 메뉴판 & 비대면 오더 솔루션 (운영 서비스)
-> **테이블 QR 코드를 활용하여 앱 설치 없이 주문/결제 및 매장을 관리하는 스마트 솔루션**
-- **실무 프로덕션 서비스**: 실제 이자카야 및 다이닝 펍 매장([Bidbar](https://naver.me/5ISHAhLZ))에서 100% 프로덕션 서비스로 실운영 중인 솔루션입니다.
-- **핵심 아키텍처**: Next.js 16 + Django REST Framework 분리형 아키텍처. Vercel(Edge SSR)과 Oracle Cloud Infrastructure(OCI) 리버스 프록시 연동.
-- **해결한 기술 과제**:
-  - **단일 도메인 통합**: Nginx 리버스 프록시 우회 설정을 구축하여 Vercel Frontend와 uWSGI Backend API를 단일 도메인(`https://bar-menu.ddnsfree.com`)으로 무중단 통합함으로써 CORS 원천 해결 및 SEO 점수 99점 확보.
-  - **Wi-Fi 권한 제어**: Vercel Edge Middleware의 IP 감지 기능과 매장 Wi-Fi 공유기 SSID 매칭 알고리즘을 설계하여 매장 와이파이 접속자만 주문할 수 있도록 완벽한 권한 통제 구현.
-  - **결제 API 통합**: 페이히어(Payhere) POS API와 연동된 결제 시뮬레이터 및 실시간 실물 POS 주문 내역 동기화 파이프라인 개발.
-  - **실시간 관제**: Django Admin 내부에 WebSocket 및 Polling 기반 실시간 주문 대시보드를 연동하고, Web Audio API chime 알림을 적용하여 매장 회전 속도 극대화.
-- **기술 스택**: `Next.js 16 (TypeScript)`, `Django REST Framework`, `PostgreSQL`, `Nginx`, `uWSGI`, `Vercel`, `Oracle Cloud`
+### [runahead](https://github.com/imhyunho99/runahead) — 코딩 에이전트를 위한 투기적 병렬 실행 · Speculative parallel execution for coding agents
+> 에이전트가 다음 작업을 물으며 멈추는 대신, 답을 **미리 추측해 격리된 worktree에서 실행**하고 사용자가 돌아오면 결과 큐에서 고르게 하는 오픈소스 도구입니다.
+> An OSS tool that *guesses* an agent's next steps, runs each in an isolated worktree while you're away, and hands you a queue to pick from — your choice is **deferred, not removed**.
+- **핵심 개념 / Key idea**: bypass 모드는 선택을 *제거*하지만, runahead는 선택을 *유예*합니다 → 비가역적 작업이 구조적으로 불가능.
+- **Tech**: `Python`, git worktree isolation, action-based speculation engine
 
 ---
 
-### [magic_container](https://github.com/imhyunho99/magic_container) — 로컬 AI 오케스트레이터
-> **로컬 AI 모델 환경 자동 구성 및 데스크톱 배포용 크로스 플랫폼 컨테이너**
-- **특징**: 복잡한 환경 설정 없이 로컬에서 다양한 AI 모델(LLM, CV, TTS 등)을 손쉽게 구동하고 UI를 서빙할 수 있도록 빌드 및 실행 프로세스를 자동화합니다.
-- **기술 스택**: `Rust`, `Tauri`, `llama-cpp`
+### [bar-menu](https://github.com/imhyunho99/bar-menu) — 스마트 QR 메뉴판 & 비대면 오더 (운영 서비스) · Smart QR ordering platform (live in production)
+> 앱 설치 없이 테이블 QR로 주문·결제·매장 관리를 처리하는 솔루션. 실제 이자카야/다이닝 펍([Bidbar](https://naver.me/5ISHAhLZ))에서 **100% 프로덕션 운영 중**.
+> Install-free QR ordering/payment/store-management, running as a **100% production service** in a real dining pub.
+- **단일 도메인 통합**: Nginx 리버스 프록시로 Vercel Frontend + uWSGI Backend를 단일 도메인에 무중단 통합 → CORS 원천 해결, SEO 99점.
+- **Wi-Fi 권한 제어**: Vercel Edge Middleware IP 감지 + 매장 SSID 매칭으로 매장 접속자만 주문 가능.
+- **결제/실시간 관제**: Payhere POS API 연동, WebSocket 실시간 주문 대시보드 + Web Audio 알림.
+- **Tech**: `Next.js 16 (TypeScript)`, `Django REST Framework`, `PostgreSQL`, `Nginx`, `uWSGI`, `Vercel`, `Oracle Cloud`
 
 ---
 
-### [alpha](https://github.com/imhyunho99/alpha) — AI 기반 투자 어드바이저
-> **앙상블 머신러닝 모델 기반 실시간 시계열 자산 가치 분석 및 투자 추천 시스템**
-- **특징**: NASDAQ 지수 및 주요 암호화폐 시장의 100여 개 기술 지표를 고성능 시계열 데이터베이스에 추적/기록하고, 학습된 머신러닝 파이프라인을 연동해 의사결정을 보조하는 시각화 대시보드입니다.
-- **기술 스택**: `Python/FastAPI`, `scikit-learn`, `XGBoost`, `LightGBM`, `PySide6 (Qt)`, `QuestDB`
+### [ONZ](https://github.com/imhyunho99/Cocktail_backend) — 태그 기반 칵테일 큐레이션 앱 (사이드 프로젝트 · 실서비스) · Cocktail curation app (side project, live)
+> 취향 태그로 칵테일을 추천·큐레이션하는 모바일 앱. React Native 앱과 Spring Boot 백엔드로 구성되며, 팀([MobileOnz](https://github.com/MobileOnz)) 사이드 프로젝트로 **실제 서비스 중**입니다. 저는 **백엔드 설계·운영**을 담당합니다.
+> A cocktail-curation mobile app driven by taste tags — React Native client + Spring Boot backend, shipped as a **live side project**. I own the **backend architecture & operations**.
+- **인증**: JWT + 소셜 로그인(Naver·Kakao·Google·Apple)을 **전략 패턴**으로 통합.
+- **기능**: 태그/도수/맛/시즌 필터 검색(QueryDSL), QR 방문 인증·신뢰등급 세션, SSE 기반 오픈채팅, S3 이미지 업로드, Thymeleaf Admin.
+- **Tech**: `Spring Boot 3` · `Java 17` · `MariaDB` · `QueryDSL` · `AWS S3` / 앱: `React Native` · `Firebase` · `Amplitude`
 
 ---
 
-### [CarLogoDetection](https://github.com/imhyunho99/CarLogoDetection) — 실시간 차량 엠블럼 분류기
-> **PyTorch Deep Learning 기반의 차량 로고 고속 검출 및 피드백 학습 파이프라인**
-- **특징**: 도로 및 주차장 CCTV 스트림에서 차량 엠블럼 영역을 정확히 ROI로 추출하고, CNN 모델을 거쳐 브랜드를 분류 및 이상치를 감지하여 피드백 순환 학습을 수행하는 데모 시스템입니다.
-- **기술 스택**: `Python`, `PyTorch`, `OpenCV`, `Nginx`
+### [magic_container](https://github.com/imhyunho99/magic_container) — 로컬 LLM 오케스트레이터 · Local LLM orchestrator
+> 복잡한 설정 없이 로컬에서 LLM(Qwen·Gemma 등)을 **원클릭으로 설치·실행**하고 채팅 UI를 서빙하는 크로스플랫폼 데스크톱 앱. 하드웨어를 감지해 모델을 내려받고 추론 서버를 띄워 **SSE 스트리밍**으로 응답합니다.
+> A cross-platform desktop app that **installs and runs local LLMs in one click** — detects hardware, downloads models, spins up an inference server, and streams responses over SSE.
+- **Tech**: `Rust` · `Tauri 2` · `React 19` · `SSE` · GPU 감지(`nvml`/`sysinfo`)
 
 ---
 
-## Contact & Links
+### [alpha](https://github.com/imhyunho99/alpha) — AI 투자 어드바이저 · AI investment advisor
+> NASDAQ·암호화폐의 100여 개 기술 지표를 시계열 DB에 기록하고 앙상블 ML 파이프라인으로 의사결정을 보조하는 시각화 대시보드.
+> Tracks 100+ technical indicators into a time-series DB and assists decisions via an ensemble ML pipeline.
+- **Tech**: `Python/FastAPI` · `scikit-learn` · `XGBoost` · `LightGBM` · `PySide6 (Qt)` · `QuestDB`
+
+---
+
+### [CarLogoDetection](https://github.com/imhyunho99/CarLogoDetection) — 실시간 차량 엠블럼 분류기 · Real-time car-logo classifier
+> 이미지에서 차량 로고 영역을 ROI로 추출하고 CNN으로 브랜드를 분류하는 딥러닝 웹 서비스.
+> Extracts logo ROIs and classifies car brands with a CNN, served as a deep-learning web service.
+- **Tech**: `Python` · `PyTorch` · `OpenCV` · `Django REST Framework` · `React` · `Oracle Cloud`
+
+---
+
+## 📊 GitHub Stats
+
+<p>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=imhyunho99&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=default" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imhyunho99&layout=compact&hide_border=true&langs_count=8&theme=default" alt="Top languages" />
+</p>
+
+---
+
+## 📫 Contact & Links
 
 - **Email**: nahyunho1999@gmail.com
-- **Blog**: [https://im-hyunho99.tistory.com/](https://im-hyunho99.tistory.com/) (대규모 트래픽 분산 처리, DB 쿼리 튜닝, 인프라 자동화 등에 특화된 기술 포스팅 운영 중)
+- **Blog / 기술 블로그**: [im-hyunho99.tistory.com](https://im-hyunho99.tistory.com/) — 대규모 트래픽 분산 처리, DB 쿼리 튜닝, 인프라 자동화
 
 ---
 <p align="center">
-  💡 <b>"단순히 작동하는 코드를 넘어, 비즈니스의 가치를 가장 안정적이고 우아하게 담아내는 시스템을 만듭니다."</b>
+  💡 <b>"단순히 작동하는 코드를 넘어, 비즈니스의 가치를 가장 안정적이고 우아하게 담아내는 시스템을 만듭니다."</b><br/>
+  <i>"Beyond code that merely works — systems that carry business value reliably and elegantly."</i>
 </p>
