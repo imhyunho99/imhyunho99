@@ -1,4 +1,4 @@
-# 안녕하세요, 견고한 시스템을 만드는 백엔드 엔지니어 나현호입니다 👋<br/>Hi, I'm Hyun-ho Na — a backend engineer who builds robust, production-ready systems.
+# 안녕하세요, 견고한 시스템을 만드는 백엔드 엔지니어 나현호입니다 <br/>Hi, I'm Hyun-ho Na — a backend engineer who builds robust, production-ready systems.
 
 **AI 모델 서빙**과 **대규모 트래픽 웹 백엔드 아키텍처** 설계에 강점을 둔 현업 백엔드 엔지니어입니다.
 현재 [Docenty.ai](https://docenty.ai)에서 **RAG 기반 챗봇 플랫폼 서비스** 개발을 담당하며, LLM 오케스트레이션·벡터 검색·에이전트 파이프라인을 설계하고 있습니다.
