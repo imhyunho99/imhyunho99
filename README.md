@@ -8,7 +8,7 @@
 
 ---
 
-## 🛠️ Skills & Expertise
+## Skills & Expertise
 
 ### Languages & Frameworks
 <p>
@@ -25,7 +25,7 @@
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
 </p>
 
-### 🤖 RAG / LLM Engineering
+### RAG / LLM Engineering
 <p>
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain">
   <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white" alt="LangGraph">
@@ -68,7 +68,7 @@
 
 ---
 
-## 🚀 Production & Engineering Projects
+## Production & Engineering Projects
 
 ### [runahead](https://github.com/imhyunho99/runahead) — 코딩 에이전트를 위한 투기적 병렬 실행 · Speculative parallel execution for coding agents
 > 에이전트가 다음 작업을 물으며 멈추는 대신, 답을 **미리 추측해 격리된 worktree에서 실행**하고 사용자가 돌아오면 결과 큐에서 고르게 하는 오픈소스 도구입니다.
@@ -118,7 +118,7 @@
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <p>
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=imhyunho99&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=default" alt="GitHub stats" />
@@ -127,13 +127,13 @@
 
 ---
 
-## 📫 Contact & Links
+## Contact & Links
 
 - **Email**: nahyunho1999@gmail.com
 - **Blog / 기술 블로그**: [im-hyunho99.tistory.com](https://im-hyunho99.tistory.com/) — 대규모 트래픽 분산 처리, DB 쿼리 튜닝, 인프라 자동화
 
 ---
 <p align="center">
-  💡 <b>"단순히 작동하는 코드를 넘어, 비즈니스의 가치를 가장 안정적이고 우아하게 담아내는 시스템을 만듭니다."</b><br/>
+ <b>"단순히 작동하는 코드를 넘어, 비즈니스의 가치를 가장 안정적이고 우아하게 담아내는 시스템을 만듭니다."</b><br/>
   <i>"Beyond code that merely works — systems that carry business value reliably and elegantly."</i>
 </p>
