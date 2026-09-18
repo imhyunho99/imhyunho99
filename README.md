@@ -1,8 +1,8 @@
 # 나현호 · Hyunho Na
 
-**조용히 틀리고 있는 것을 찾아냅니다.** 크래시로 드러나지 않고 그냥 틀린 답을 내놓는 종류의 결함 — 프로덕션에서 그걸 찾아 고치고, AI와 일할 때도 같은 걸 하려고 도구를 직접 만듭니다.
+**조용히 틀리고 있는 것을 찾아냅니다.** 크래시로 드러나지 않고 그냥 틀린 답을 내놓는 종류의 결함 - 프로덕션에서 그걸 찾아 고치고, AI와 일할 때도 같은 걸 하려고 도구를 직접 만듭니다.
 
-**I find the things that are quietly wrong** — the failures that don't crash, they just return the wrong answer. I hunt them in production, and I build my own tooling to do the same when working with coding agents.
+**I find the things that are quietly wrong** - the failures that don't crash, they just return the wrong answer. I hunt them in production, and I build my own tooling to do the same when working with coding agents.
 
 ---
 
@@ -12,9 +12,9 @@
 
 커머스 AI 챗봇 SaaS에서 백엔드·프론트 양쪽 프로덕션을 맡고 있습니다. 6개월간 550건을 머지했고 그중 **91건이 배포 승격 PR**, 남의 PR을 **67건** 리뷰했습니다.
 
-- 파일 처리 전 경로의 **O(N²) 쓰기 증폭** 제거 — 한 문서가 2.2GB에서 31MB로. 파일 크기 제한으로 증상을 가리는 대신, 쓰기량이 페이지 수에 비례하는지 검사하는 테스트를 남겨 같은 결함이 다시 들어오면 배포 전에 걸리게 했습니다
+- 파일 처리 전 경로의 **O(N²) 쓰기 증폭** 제거 - 한 문서가 2.2GB에서 31MB로. 파일 크기 제한으로 증상을 가리는 대신, 쓰기량이 페이지 수에 비례하는지 검사하는 테스트를 남겨 같은 결함이 다시 들어오면 배포 전에 걸리게 했습니다
 - 전체 컬렉션 스캔 제거로 프로덕션 먹통 근본수정, 재발방지 가드 동봉
-- 조용히 버려지던 채널 전송 실패를 표면화 — 실패가 성공으로 보이던 경로들
+- 조용히 버려지던 채널 전송 실패를 표면화 - 실패가 성공으로 보이던 경로들
 - 검색 리랭커를 바로 켜지 않고 **shadow 모드로 먼저 관측**하도록 설계하고 그 판단을 ADR로 남김
 - 음성 응답 경로 지연시간 실측 개선: 첫 토큰까지 11~14초 → **1.7초**
 
@@ -24,9 +24,9 @@ Backend and frontend production for a commerce AI chatbot SaaS. 550 merged PRs i
 
 AI가 내놓은 결과를 검증할 방법이 없으면 만듭니다. 신기한 걸 만들되 아는 개념 위에 올립니다.
 
-- **[runahead](https://github.com/imhyunho99/runahead)** — CPU의 runahead execution을 개발 워크플로우로 이식. 투기적으로 미리 실행하고, 안 고르면 버리고, 토큰 장부로 "어떤 예측이 비용만큼 값을 하는가"에 답합니다. 500세션 시뮬레이션에서 miss 12% → 0% 수렴. `pip install runahead`
-- **[end-test](https://github.com/imhyunho99/end-test)** — 끝난 세션을 문제로 되돌려 "돌아가는데 왜인지 모르는" 구간을 찾는 Claude Code / Codex 스킬. 공개 레포에 사적 식별자가 섞이지 않는지까지 계약 테스트로 막습니다
-- **xreview** — 3패스 교차 코드리뷰 하네스. 시드해둔 과거 버그 3/3을 검출했습니다 (사내)
+- **[runahead](https://github.com/imhyunho99/runahead)** - CPU의 runahead execution을 개발 워크플로우로 이식. 투기적으로 미리 실행하고, 안 고르면 버리고, 토큰 장부로 "어떤 예측이 비용만큼 값을 하는가"에 답합니다. 500세션 시뮬레이션에서 miss 12% → 0% 수렴. `pip install runahead`
+- **[end-test](https://github.com/imhyunho99/end-test)** - 끝난 세션을 문제로 되돌려 "돌아가는데 왜인지 모르는" 구간을 찾는 Claude Code / Codex 스킬. 공개 레포에 사적 식별자가 섞이지 않는지까지 계약 테스트로 막습니다
+- **xreview** - 3패스 교차 코드리뷰 하네스. 시드해둔 과거 버그 3/3을 검출했습니다 (사내)
 
 ---
 
@@ -46,13 +46,13 @@ AI가 내놓은 결과를 검증할 방법이 없으면 만듭니다. 신기한 
 
 코딩 에이전트를 위한 투기적 병렬 실행 도구. 에이전트가 다음 작업을 묻고 멈추는 대신, 답을 미리 추측해 격리된 worktree에서 실행하고 돌아왔을 때 결과 큐에서 고르게 합니다. bypass 모드가 선택을 없애는 것과 달리, 선택을 유예합니다.
 
-Speculative parallel execution for coding agents. Instead of stopping to ask what's next, it guesses, runs each guess in an isolated worktree, and hands you a queue to pick from — your choice is deferred, not removed.
+Speculative parallel execution for coding agents. Instead of stopping to ask what's next, it guesses, runs each guess in an isolated worktree, and hands you a queue to pick from - your choice is deferred, not removed.
 
 Python · git worktree
 
 ### [end-test](https://github.com/imhyunho99/end-test)
 
-끝난 코딩 세션을 다시 문제로 되돌려주는 Claude Code / Codex 스킬. 에이전틱 코딩은 코드가 돌아가는 것과 내가 그것을 이해하는 것을 분리하는데, 그 간격을 측정합니다. 채점을 ○/✗ 이분법이 아니라 △(결론은 맞지만 이유가 빔)를 포함한 3단계로 두는 것이 핵심입니다 — 돌아는 가는데 왜인지 모르는 상태가 이분법에서는 ○으로 흡수되기 때문입니다.
+끝난 코딩 세션을 다시 문제로 되돌려주는 Claude Code / Codex 스킬. 에이전틱 코딩은 코드가 돌아가는 것과 내가 그것을 이해하는 것을 분리하는데, 그 간격을 측정합니다. 채점을 ○/✗ 이분법이 아니라 △(결론은 맞지만 이유가 빔)를 포함한 3단계로 두는 것이 핵심입니다 - 돌아는 가는데 왜인지 모르는 상태가 이분법에서는 ○으로 흡수되기 때문입니다.
 
 A Claude Code / Codex skill that turns the session you just finished back into questions. Agentic coding separates the code working from you understanding it; this measures that gap. Grading is three-level rather than binary, because "it runs and I don't know why" gets absorbed into a pass otherwise.
 
@@ -103,4 +103,4 @@ Python · PyTorch · OpenCV · Django REST Framework · React · Oracle Cloud
 ## Contact
 
 - Email: nahyunho1999@gmail.com
-- Blog: [im-hyunho99.tistory.com](https://im-hyunho99.tistory.com/) — 대규모 트래픽 분산 처리, DB 쿼리 튜닝, 인프라 자동화
+- Blog: [im-hyunho99.tistory.com](https://im-hyunho99.tistory.com/) - 대규모 트래픽 분산 처리, DB 쿼리 튜닝, 인프라 자동화
