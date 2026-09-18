@@ -1,75 +1,42 @@
-# 나현호 · Hyun-ho Na
+# 나현호 · Hyunho Na
 
-백엔드 엔지니어입니다. AI 모델 서빙과 대규모 트래픽을 견디는 웹 백엔드 아키텍처를 주로 다룹니다.
-현재 Docenty.ai에서 RAG 기반 챗봇 플랫폼을 개발하며, LLM 오케스트레이션·벡터 검색·에이전트 파이프라인을 설계하고 있습니다.
+**조용히 틀리고 있는 것을 찾아냅니다.** 크래시로 드러나지 않고 그냥 틀린 답을 내놓는 종류의 결함 — 프로덕션에서 그걸 찾아 고치고, AI와 일할 때도 같은 걸 하려고 도구를 직접 만듭니다.
 
-Backend engineer focused on AI model serving and high-traffic web architecture.
-Currently building a RAG-based chatbot platform at Docenty.ai — LLM orchestration, vector retrieval, and agent pipelines.
+**I find the things that are quietly wrong** — the failures that don't crash, they just return the wrong answer. I hunt them in production, and I build my own tooling to do the same when working with coding agents.
+
+---
+
+## 두 가지를 합니다 · Two things
+
+**1. 증상이 아니라 원인을 지웁니다 · Remove the cause, not the symptom**
+
+커머스 AI 챗봇 SaaS에서 백엔드·프론트 양쪽 프로덕션을 맡고 있습니다. 6개월간 550건을 머지했고 그중 **91건이 배포 승격 PR**, 남의 PR을 **67건** 리뷰했습니다.
+
+- 파일 처리 전 경로의 **O(N²) 쓰기 증폭** 제거 — 한 문서가 2.2GB에서 31MB로. 파일 크기 제한으로 증상을 가리는 대신, 쓰기량이 페이지 수에 비례하는지 검사하는 테스트를 남겨 같은 결함이 다시 들어오면 배포 전에 걸리게 했습니다
+- 전체 컬렉션 스캔 제거로 프로덕션 먹통 근본수정, 재발방지 가드 동봉
+- 조용히 버려지던 채널 전송 실패를 표면화 — 실패가 성공으로 보이던 경로들
+- 검색 리랭커를 바로 켜지 않고 **shadow 모드로 먼저 관측**하도록 설계하고 그 판단을 ADR로 남김
+- 음성 응답 경로 지연시간 실측 개선: 첫 토큰까지 11~14초 → **1.7초**
+
+Backend and frontend production for a commerce AI chatbot SaaS. 550 merged PRs in six months, 91 of them production releases, 67 reviews on other people's PRs.
+
+**2. 필요한 장치를 직접 만듭니다 · Build the instrument I need**
+
+AI가 내놓은 결과를 검증할 방법이 없으면 만듭니다. 신기한 걸 만들되 아는 개념 위에 올립니다.
+
+- **[runahead](https://github.com/imhyunho99/runahead)** — CPU의 runahead execution을 개발 워크플로우로 이식. 투기적으로 미리 실행하고, 안 고르면 버리고, 토큰 장부로 "어떤 예측이 비용만큼 값을 하는가"에 답합니다. 500세션 시뮬레이션에서 miss 12% → 0% 수렴. `pip install runahead`
+- **[end-test](https://github.com/imhyunho99/end-test)** — 끝난 세션을 문제로 되돌려 "돌아가는데 왜인지 모르는" 구간을 찾는 Claude Code / Codex 스킬. 공개 레포에 사적 식별자가 섞이지 않는지까지 계약 테스트로 막습니다
+- **xreview** — 3패스 교차 코드리뷰 하네스. 시드해둔 과거 버그 3/3을 검출했습니다 (사내)
 
 ---
 
 ## Tech
 
-Languages & Frameworks
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django">
-  <img src="https://img.shields.io/badge/DRF-A30000?style=flat-square&logo=django&logoColor=white" alt="Django REST Framework">
-  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot">
-  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
-  <img src="https://img.shields.io/badge/React%20Native-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React Native">
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
-</p>
-
-RAG / LLM
-
-<p>
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain">
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" alt="LangGraph">
-  <img src="https://img.shields.io/badge/DeepAgents-1C3C3C?style=flat-square" alt="DeepAgents">
-  <img src="https://img.shields.io/badge/Pinecone-2E2E2E?style=flat-square&logo=pinecone&logoColor=white" alt="Pinecone">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB">
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI">
-  <img src="https://img.shields.io/badge/Anthropic-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Anthropic">
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face">
-</p>
-
-AI / ML
-
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn">
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV">
-</p>
-
-Databases
-
-<p>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
-  <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white" alt="MariaDB">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB">
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis">
-  <img src="https://img.shields.io/badge/QuestDB-F25B2A?style=flat-square&logo=questdb&logoColor=white" alt="QuestDB">
-</p>
-
-DevOps & Cloud
-
-<p>
-  <img src="https://img.shields.io/badge/Oracle%20Cloud-F01F0A?style=flat-square&logo=oracle&logoColor=white" alt="OCI">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx">
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel">
-  <img src="https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white" alt="Tauri">
-</p>
+**Languages** Python · TypeScript · Java · Rust · Kotlin · SQL
+**Backend** FastAPI · Django / DRF · Spring Boot · Next.js
+**AI** LangGraph · LangChain · MCP · RAG · Pinecone · PyTorch
+**Data** PostgreSQL · MongoDB · MySQL / MariaDB · Redis · QuestDB
+**Infra** GCP · AWS · Oracle Cloud · Docker · Nginx · GitHub Actions · Vercel
 
 ---
 
@@ -82,6 +49,14 @@ DevOps & Cloud
 Speculative parallel execution for coding agents. Instead of stopping to ask what's next, it guesses, runs each guess in an isolated worktree, and hands you a queue to pick from — your choice is deferred, not removed.
 
 Python · git worktree
+
+### [end-test](https://github.com/imhyunho99/end-test)
+
+끝난 코딩 세션을 다시 문제로 되돌려주는 Claude Code / Codex 스킬. 에이전틱 코딩은 코드가 돌아가는 것과 내가 그것을 이해하는 것을 분리하는데, 그 간격을 측정합니다. 채점을 ○/✗ 이분법이 아니라 △(결론은 맞지만 이유가 빔)를 포함한 3단계로 두는 것이 핵심입니다 — 돌아는 가는데 왜인지 모르는 상태가 이분법에서는 ○으로 흡수되기 때문입니다.
+
+A Claude Code / Codex skill that turns the session you just finished back into questions. Agentic coding separates the code working from you understanding it; this measures that gap. Grading is three-level rather than binary, because "it runs and I don't know why" gets absorbed into a pass otherwise.
+
+Python · Claude Code / Codex plugin · 계약 테스트
 
 ### [bar-menu](https://github.com/imhyunho99/bar-menu)
 
